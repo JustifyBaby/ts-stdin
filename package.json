@@ -1,12 +1,15 @@
 {
-  "name": "@justify-baby/ts-stdin",
-  "version": "1.0.0",
+  "name": "tslib-stdin",
+  "version": "2.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"

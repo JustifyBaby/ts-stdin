@@ -1,4 +1,4 @@
-import { Stdin } from "../src/index"; // ローカルテスト用。npm公開後は 'ts-stdin' からインポート
+import { Stdin } from "../src/index"; // ローカルテスト用。npm公開後は 'tslib-stdin' からインポート
 
 /**
  * [Example 1] Basic Input

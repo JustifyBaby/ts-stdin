@@ -1,8 +1,8 @@
-# ts-stdin
+# tslib-stdin
 
 A Python-inspired, type-safe, synchronous standard input utility for TypeScript/Node.js.
 
-Stop wrestling with asynchronous `readline` or callbacks just to get simple user input. **ts-stdin** allows you to handle CLI inputs synchronously, with powerful type inference and object mapping.
+Stop wrestling with asynchronous `readline` or callbacks just to get simple user input. **tslib-stdin** allows you to handle CLI inputs synchronously, with powerful type inference and object mapping.
 
 ---
 
@@ -19,7 +19,7 @@ Stop wrestling with asynchronous `readline` or callbacks just to get simple user
 ## Installation
 
 ```bash
-npm install ts-stdin
+npm install tslib-stdin
 ```
 
 ---
@@ -29,7 +29,7 @@ npm install ts-stdin
 ### 1. Basic Input
 
 ```typescript
-import { Stdin } from "ts-stdin";
+import { Stdin } from "tslib-stdin";
 
 const name = Stdin.input("What is your name? ");
 console.log(`Hello, ${name}!`);
